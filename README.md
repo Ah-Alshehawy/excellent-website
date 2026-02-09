@@ -99,7 +99,6 @@ excellent-website/
 ✉️ **Email:** info@excellentgrp.com  
 🕐 **Business Hours:** Sunday – Thursday, 9:00 AM – 5:00 PM (Egypt Time)
 
-**Managing Director:** Eng. Ahmed Elshehawy
 
 ---
 
@@ -145,3 +144,4 @@ If you represent an international brand seeking a franchise operating partner in
 ---
 
 **Built with ❤️ for Excellent Franchise Management Co.**
+      Managing Director: Eng. Ahmed Elshehawy
