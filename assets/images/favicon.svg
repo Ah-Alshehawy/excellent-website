@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Favicon - Simple E on Navy -->
+  <rect width="32" height="32" fill="#1e3a5f" rx="6"/>
+  
+  <!-- Letter E -->
+  <g transform="translate(16, 16)">
+    <rect x="-6" y="-10" width="3" height="20" fill="#d4a853"/>
+    <rect x="-6" y="-10" width="11" height="3" fill="#d4a853"/>
+    <rect x="-6" y="-1.5" width="9" height="3" fill="#d4a853"/>
+    <rect x="-6" y="7" width="11" height="3" fill="#d4a853"/>
+  </g>
+  
+  <!-- Small accent -->
+  <circle cx="24" cy="8" r="1.5" fill="#d4a853"/>
+  <circle cx="24" cy="24" r="1.5" fill="#d4a853"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#1e3a5f" stroke="#d4a853" stroke-width="3"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#d4a853" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Letter E - Stylized -->
+  <g transform="translate(100, 100)">
+    <!-- Main vertical bar -->
+    <rect x="-25" y="-40" width="12" height="80" fill="#d4a853" rx="2"/>
+    
+    <!-- Top horizontal bar -->
+    <rect x="-25" y="-40" width="45" height="12" fill="#d4a853" rx="2"/>
+    
+    <!-- Middle horizontal bar -->
+    <rect x="-25" y="-6" width="38" height="12" fill="#d4a853" rx="2"/>
+    
+    <!-- Bottom horizontal bar -->
+    <rect x="-25" y="28" width="45" height="12" fill="#d4a853" rx="2"/>
+    
+    <!-- Decorative dots -->
+    <circle cx="25" cy="-34" r="3" fill="#d4a853"/>
+    <circle cx="25" cy="34" r="3" fill="#d4a853"/>
+  </g>
+  
+  <!-- Outer decorative elements -->
+  <path d="M 100 15 L 105 25 L 95 25 Z" fill="#d4a853" opacity="0.8"/>
+  <path d="M 185 100 L 175 105 L 175 95 Z" fill="#d4a853" opacity="0.8"/>
+  <path d="M 100 185 L 95 175 L 105 175 Z" fill="#d4a853" opacity="0.8"/>
+  <path d="M 15 100 L 25 95 L 25 105 Z" fill="#d4a853" opacity="0.8"/>
+</svg>

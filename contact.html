@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Excellent Franchise Management Co.</title>
+    <meta name="description"
+        content="Contact Excellent Franchise Management Co. to discuss franchise partnerships, market entry opportunities, or general inquiries. Based in Giza, Egypt.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="wrapper header-container">
+            <a href="index.html" class="brand">
+                <img src="assets/images/logo.svg" alt="Excellent Logo" class="brand-logo-img">
+                <div class="brand-text">
+                    <strong>Excellent Franchise Management Co.</strong>
+                    <small>Franchise Management & Brand Operations</small>
+                </div>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="brands.html">Brands & Partners</a></li>
+                    <li><a href="why-egypt.html">Why Egypt & MENA</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero hero-with-bg"
+            style="background-image: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&w=1920&q=80');">
+            <div class="wrapper">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Contact Us</span>
+                </div>
+                <h1>Contact Us</h1>
+                <p>We welcome inquiries from international brands, investors, and strategic partners interested in
+                    franchise opportunities in Egypt and the MENA region.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <div class="wrapper contact-section">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="section-header">
+                        <div class="section-kicker">Get In Touch</div>
+                        <h2 class="section-title">Contact Information</h2>
+                    </div>
+                    <p class="text-muted">Whether you are exploring market entry into Egypt, seeking a franchise
+                        operating partner, or have general inquiries about our services, our team is ready to assist
+                        you.</p>
+
+                    <div class="image-container" style="border-radius: 12px; overflow: hidden; margin: 1.5rem 0;">
+                        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=800&q=80"
+                            alt="Modern office reception" style="width: 100%; height: 200px; object-fit: cover;">
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <a href="https://maps.app.goo.gl/n6PmVcLR5uNDx6hy9" target="_blank"
+                                class="contact-item-icon animated-pin"
+                                style="text-decoration: none; display: flex; align-items: center; justify-content: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </a>
+                            <div class="contact-item-content">
+                                <h4>Office Address</h4>
+                                <p>2 Al Zohour St., Hadayek Al Ahram (Old)<br>Giza, Egypt</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📞</div>
+                            <div class="contact-item-content">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+20233777080">+20 23 377 7080</a></p>
+                                <p><a href="tel:+20233749748">+20 23 374 9748</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">✉️</div>
+                            <div class="contact-item-content">
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@excellentgrp.com">info@excellentgrp.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">🕐</div>
+                            <div class="contact-item-content">
+                                <h4>Business Hours</h4>
+                                <p>Sunday – Thursday: 9:00 AM – 5:00 PM (Egypt Time)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map Placeholder -->
+
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <p class="text-muted" style="margin-bottom: 1.5rem;">Please complete the form below and a member of
+                        our team will respond to your inquiry.</p>
+
+                    <form id="contactForm" onsubmit="handleSubmit(event)">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company / Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiryType">Nature of Inquiry *</label>
+                            <select id="inquiryType" name="inquiryType" required>
+                                <option value="">Please select...</option>
+                                <option value="brand-partnership">Brand Partnership Inquiry</option>
+                                <option value="market-entry">Market Entry Discussion</option>
+                                <option value="investor-relations">Investor Relations</option>
+                                <option value="strategic-partnership">Strategic Partnership</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Please describe your inquiry or the nature of the partnership opportunity you would like to discuss..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Info -->
+        <section class="section alt">
+            <div class="wrapper">
+                <div class="two-column">
+                    <div>
+                        <div class="section-header">
+                            <div class="section-kicker">For International Brands</div>
+                            <h3 class="section-title">Partnership Inquiries</h3>
+                        </div>
+                        <p class="text-muted">If you represent an international brand seeking a franchise operating
+                            partner in Egypt or the MENA region, we encourage you to reach out. Our team will schedule
+                            an introductory discussion to understand your requirements and explore potential
+                            collaboration.</p>
+                    </div>
+                    <div>
+                        <div class="section-header">
+                            <div class="section-kicker">For Investors</div>
+                            <h3 class="section-title">Investment Inquiries</h3>
+                        </div>
+                        <p class="text-muted">For investors interested in the franchise management sector in Egypt and
+                            MENA, we welcome the opportunity to discuss our operating model, portfolio strategy, and
+                            growth plans. Please include relevant details in your inquiry.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Disclaimer -->
+        <section class="section">
+            <div class="wrapper text-center">
+                <p class="text-muted" style="font-size: 0.9rem;">This website and contact form are intended for brand
+                    owners, investors, and strategic partners. For consumer inquiries related to our operated brands
+                    (such as Juan Valdez Café Egypt), please contact the respective brand locations directly.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="wrapper">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <strong>Excellent Franchise Management Co.</strong>
+                    <p>A dedicated franchise management and operations company representing international brands across
+                        Egypt and the MENA region. Focused on structured operations, brand governance, and long-term
+                        value creation.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="brands.html">Brands & Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="why-egypt.html">Why Egypt & MENA</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <p>2 Al Zohour St., Hadayek Al Ahram (Old), Giza, Egypt</p>
+                        <p>Phone: <a href="tel:+20233777080">+20 23 377 7080</a></p>
+                        <p>Phone: <a href="tel:+20233749748">+20 23 374 9748</a></p>
+                        <p>Email: <a href="mailto:info@excellentgrp.com">info@excellentgrp.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Excellent Franchise Management Co. All rights reserved.</p>
+                <p>This website is intended for brands, investors, and strategic partners.</p>
+                <p class="managing-director"><strong>Managing Director:</strong> Eng. Ahmed Elshehawy</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to Top">↑</button>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        function toggleMenu() {
+            document.getElementById('mainNav').classList.toggle('active');
+        }
+
+        function handleSubmit(e) {
+            e.preventDefault();
+            // In production, this would submit to a backend service
+            alert('Thank you for your inquiry. A member of our team will respond within 2 business days.');
+            document.getElementById('contactForm').reset();
+        }
+
+        // Intersection Observer for Scroll Animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target); // Stop observing once visible
+                }
+            });
+        }, observerOptions);
+
+        // Add 'animate-on-scroll' class to elements that should animate
+        document.querySelectorAll('.section-header, .contact-info, .contact-form, .contact-item, .form-card, .two-column > div').forEach(el => {
+            el.classList.add('animate-on-scroll'); // Ensure elements have this class
+            observer.observe(el);
+        });
+
+        // Header Scroll Effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (header) { // Check if header exists
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            }
+
+            // Back to Top Button
+            const backToTop = document.getElementById('backToTop');
+            if (backToTop) { // Check if button exists
+                if (window.scrollY > 300) {
+                    backToTop.classList.add('visible');
+                } else {
+                    backToTop.classList.remove('visible');
+                }
+            }
+        });
+
+
+
+        // Back to Top Click Event
+        const backToTopButton = document.getElementById('backToTop');
+        if (backToTopButton) {
+            backToTopButton.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+
+        // Mobile Menu Toggle (assuming a mobile menu button and nav-links exist)
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (mobileMenuBtn && navLinks) {
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+            });
+        }
+    </script>
+</body>
+
+</html>
